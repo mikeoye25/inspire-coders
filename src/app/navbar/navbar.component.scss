@@ -1,0 +1,27 @@
+.navbar-trans {
+  // background: transparent;
+  background: #46484a;
+}
+
+a.navbar-brand {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #43a !important;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+a.logo:hover,
+a.logo:active,
+a.logo:focus {
+  text-decoration: none;
+}
+
+li.nav-item .btn {
+  margin-top: 0.2rem;
+  margin-left: 0.7rem;
+}
+
+li.nav-item .btn-white {
+  color: #3387db;
+}

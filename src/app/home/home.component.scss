@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+@media (min-width: 1200px) {
+  .container,
+  .container-lg,
+  .container-sm,
+  .container-xl {
+    max-width: 1247px !important;
+  }
+}
+
+.jumbotron.jumb-home {
+  background: #15a3de;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #e6f3f6, #15a3de);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #e6f3f6, #15a3de);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.jumbotron .hero-content h1 {
+  font-size: 43px;
+  font-weight: 900;
+  color: #000;
+  line-height: 1.3;
+}
+
+.jumbotron .hero-content p {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+// about
+
+.jumb-about {
+  background: #f6e9f9 !important;
+}
+
+.content {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.content h2 {
+  font-size: 35px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin: 5px 0 10px 0;
+}
+
+.content .description {
+  margin: 20px auto;
+  max-width: 85%;
+  text-align: center;
+}
+
+.content .description p {
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 300;
+}
+
+.content img {
+  height: auto;
+  margin: auto;
+  display: block;
+}
+
+// end of about
+
+// how it works
+.jumb-hiw {
+  background: #d8deed;
+  background-image: linear-gradient(#d8deed, #fcfcfc, #acdffb);
+}
+
+.main-timeline {
+  display: flex;
+  margin: 80px 0 20px 0;
+}
+
+.main-timeline.t1,
+.main-timeline.t3 {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-timeline.t2 {
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.main-timeline.t2 img {
+  margin-left: 30px;
+}
+
+.main-timeline.t2 .middle {
+  margin-left: 99px;
+}
+
+.main-timeline.t3 .round {
+  margin-right: 40px;
+}
+
+.round {
+  box-shadow: 12px 12px 24px 0 #f2f2f2,
+    -12px -12px 24px 0 rgba(255, 255, 255, 0.5);
+  font-size: 5rem;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  padding: 1.3rem;
+}
+
+.round-in {
+  box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2),
+    inset -6px -6px 10px 0 rgba(255, 255, 255, 0.5);
+}
+
+.timeline {
+  background: linear-gradient(-45deg, #dfe4f0, rgba(255, 255, 255, 0.3));
+}
+
+.timeline span {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  overflow: hidden;
+  box-shadow: inset 8px 8px 16px 0 rgba(0, 0, 0, 0.2),
+    inset -8px -8px 16px 0 rgba(255, 255, 255, 0.4);
+}
+
+.timeline strong {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  overflow: hidden;
+  background-color: #ffff;
+  color: black;
+}
+
+.timeline-text {
+  background: transparent;
+  box-shadow: 6px 6px 14px 0 rgba(0, 0, 0, 0.2),
+    -8px -8px 18px 0 rgba(255, 255, 255, 0.55);
+  border-radius: 15px;
+  padding: 4px 30px 20px;
+  text-align: center;
+  width: 350px;
+  padding-top: 10px;
+  height: 300px;
+}
+
+.timeline-text h6 {
+  font-weight: 700;
+  margin: 20px 0;
+}
+
+.timeline-text p {
+  margin: 20px 0;
+  font-weight: 400;
+}
+
+.timeline-img {
+  height: auto;
+  max-width: 450px;
+}
+
+// end of how it works
+
+// get started
+.jumbotron.jumb-get-started {
+  background: url('../../assets/images/get_started.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+}
+
+.form_input {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  font-size: 1.2rem;
+  margin: 0 auto;
+  padding: 0.9rem 2rem;
+  border-radius: 0.2rem;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  width: 90%;
+  display: block;
+  border-bottom: 0.3rem solid transparent;
+  transition: all 0.3s;
+}
+
+/**** end of get started***/
+
+/**** contact***/
+.jumbotron.jumb-contact {
+  background-color: #acdffb;
+}
+
+.jumbotron .flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  color: #333;
+}
+
+.flex-container .links {
+  margin: 20px 10px;
+  display: flex;
+  flex-direction: row;
+
+  flex-wrap: wrap;
+}
+
+.flex-container .links img {
+  width: 20px;
+  height: 20px;
+}
+
+.flex-container .links a {
+  color: #333;
+  margin-left: 6px;
+}
+
+.flex-container .links a:hover,
+.flex-container .links a:active {
+  color: #fff;
+  text-decoration: none;
+}
+
+.flex-container p.title {
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.5em;
+  margin-bottom: 3px;
+}
+
+.contact-info .lead-text {
+  font-size: 1.6rem;
+  margin: 20px 0 0 0;
+}
+
+.form-group .group {
+  position: relative;
+  margin-bottom: 25px;
+}
+input.input-field {
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 300px;
+  border: none;
+  border-bottom: 1px solid #757575;
+  background: transparent;
+}
+
+input.input-field:focus {
+  outline: none;
+}
+input.input-field::-webkit-input-placeholder {
+  color: #333;
+  opacity: 0;
+  transition: opacity 0.2s ease-out;
+  font-size: 16px;
+}
+
+input.input-field::-moz-placeholder {
+  color: #333;
+  opacity: 0;
+  transition: opacity 0.2s ease-out;
+  font-size: 16px;
+}
+
+input.input-field:focus::-webkit-input-placeholder {
+  opacity: 1;
+  transition-delay: 0.2s;
+}
+
+input.input-field:focus::-moz-placeholder {
+  opacity: 1;
+  transition-delay: 0.2s;
+}
+
+label.label {
+  color: #fff;
+  font-size: 18px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 5px;
+  top: 10px;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+
+/* active state */
+input.input-field:focus ~ label.label,
+input.input-field:valid ~ label.label {
+  top: -20px;
+  font-size: 14px;
+  color: #5264ae;
+}
+
+/* BOTTOM BARS ================================= */
+.bar {
+  position: relative;
+  display: block;
+  width: 300px;
+}
+
+.bar:before,
+.bar:after {
+  content: '';
+  height: 2px;
+  width: 0;
+  bottom: 1px;
+  position: absolute;
+  background: #5264ae;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+
+.bar:before {
+  left: 50%;
+}
+
+.bar:after {
+  right: 50%;
+}
+
+/* active state */
+input.input-field:focus ~ .bar:before,
+input.input-field:focus ~ .bar:after {
+  width: 50%;
+}
+
+/* HIGHLIGHTER ================================== */
+.highlight {
+  position: absolute;
+  height: 60%;
+  width: 100px;
+  top: 25%;
+  left: 0;
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+/* active state */
+input.input-field:focus ~ .highlight {
+  -webkit-animation: inputHighlighter 0.3s ease;
+  -moz-animation: inputHighlighter 0.3s ease;
+  animation: inputHighlighter 0.3s ease;
+}
+
+/* ANIMATIONS ================ */
+@-webkit-keyframes inputHighlighter {
+  from {
+    background: #5264ae;
+  }
+
+  to {
+    width: 0;
+    background: transparent;
+  }
+}
+
+@-moz-keyframes inputHighlighter {
+  from {
+    background: #5264ae;
+  }
+
+  to {
+    width: 0;
+    background: transparent;
+  }
+}
+
+@keyframes inputHighlighter {
+  from {
+    background: #5264ae;
+  }
+
+  to {
+    width: 0;
+    background: transparent;
+  }
+}
+
+/**** end of contact***/

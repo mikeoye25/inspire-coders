@@ -1,0 +1,62 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: 'Montserrat',
+    sans-serif;
+}
+
+.jumbotron {
+  border-radius: 20px;
+
+}
+
+.button {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px 20px;
+  border-radius: 12px;
+  display: inline-block;
+  border: none;
+  transition: all 0.4s ease 0s;
+  font-size: 16px;
+  outline: none;
+  font-weight: bolder;
+}
+
+.button.btn-white {
+  color: #15A3DE;
+  background-color: #fff;
+  width: 220px;
+  margin: 10px 0;
+}
+
+.btn-white:hover {
+  background: #434343;
+  letter-spacing: 1px;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
+  transition: all 0.4s ease 0s;
+}
+
+.btn-blue {
+  background: #ACDFFB;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #43CFF3, #ACDFFB);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #43CFF3, #ACDFFB);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  text-transform: capitalize;
+  text-align: center;
+  width: 80px;
+  border-radius: 10px;
+  height: 40px;
+  color: white !important;
+
+}
